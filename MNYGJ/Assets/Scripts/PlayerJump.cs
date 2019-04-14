@@ -8,10 +8,10 @@ public class PlayerJump : MonoBehaviour
 {
  public static PlayerJump instance;
   public float counter = 0;
-  public float moveForce = 10f;
-  private bool isMoving = false;
-  public Vector2 endPosition;
-  public Vector2 startPosition;
+  // public float moveForce = 10f;
+  // private bool isMoving = false;
+  // public Vector2 endPosition;
+  // public Vector2 startPosition;
   private new Rigidbody2D rigidbody;
   public float scrollSpeed = -1.5f;
 
@@ -56,10 +56,11 @@ public class PlayerJump : MonoBehaviour
       Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
       Vector3 movingThingsPos = rigidbody.transform.position;
+      //Vector3 movingThingsPos = new Vector3(transform.position.x, transform.position.y, -0.0001f);
       Vector3 dir = pos - movingThingsPos;
       dir.Normalize();
 
-      rigidbody.transform.Translate(dir * 50 * Time.deltaTime);
+      rigidbody.transform.Translate(dir * 10 * Time.deltaTime);
 
     }
 
@@ -70,19 +71,19 @@ public class PlayerJump : MonoBehaviour
   }
 
 
-  private IEnumerator MoveForward()
-  {
-    isMoving = true;
-    if (Input.touchCount > 0)
-    {
-      Touch touch = Input.GetTouch(0);
-      Debug.Log(touch);
-    }
-    transform.Translate(Vector3.up * 20 * Time.deltaTime);
+  // private IEnumerator MoveForward()
+  // {
+  //   isMoving = true;
+  //   if (Input.touchCount > 0)
+  //   {
+  //     Touch touch = Input.GetTouch(0);
+  //     Debug.Log(touch);
+  //   }
+  //   transform.Translate(Vector3.up * 20 * Time.deltaTime);
 
-    yield return new WaitForSeconds(.1f);
-    isMoving = false;
-    yield return null;
-  }
+  //   yield return new WaitForSeconds(.1f);
+  //   isMoving = false;
+  //   yield return null;
+  // }
 
 }
