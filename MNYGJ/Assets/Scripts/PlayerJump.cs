@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-      public float counter = 0;
+  public float counter = 0;
   public float moveForce = 10f;
   private bool isMoving = false;
   public Vector2 endPosition;
