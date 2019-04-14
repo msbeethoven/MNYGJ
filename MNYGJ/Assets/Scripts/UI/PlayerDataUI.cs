@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerDataUI : MonoBehaviour
 {
+    [SerializeField]
+    private PlayerData data;
 
     [SerializeField]
     private Text playerName;
@@ -21,8 +23,10 @@ public class PlayerDataUI : MonoBehaviour
     [SerializeField]
     private Text playerLevel;
 
-    public void UpdateDisplayUI(PlayerData playerData)
+
+    /*public void UpdateDisplayUI(PlayerData playerData)
     {
+
         playerName.text = playerData.PlayerName;
         playerCurrentEnergy.text = playerData.PlayerCurrentEnergy.ToString();
         playerMaxEnergy.text = playerData.PlayerMaxEnergy.ToString();
@@ -30,5 +34,11 @@ public class PlayerDataUI : MonoBehaviour
         playerExperience.text = playerData.PlayerExperience.ToString();
         playerExperience.text = playerData.PlayerExperienceUntilNextLevel.ToString();
 
-    }
+
+
+    public void Update()
+    {
+        UpdateDisplayUI(data);
+
+    }*/
 }

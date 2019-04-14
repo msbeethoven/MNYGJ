@@ -34,6 +34,10 @@ public class PlayerData : ScriptableObject
         {
             return playerName;
         }
+        set
+        {
+            playerName = value;
+        }
     }
 
     public int PlayerMoney
@@ -41,6 +45,10 @@ public class PlayerData : ScriptableObject
         get
         {
             return playerMoney;
+        }
+        set
+        {
+            playerMoney = value;
         }
     }
 
@@ -50,6 +58,10 @@ public class PlayerData : ScriptableObject
         {
             return playerCurrentEnergy;
         }
+        set
+        {
+            playerCurrentEnergy = value;
+        }
     }
 
     public int PlayerMaxEnergy
@@ -57,6 +69,10 @@ public class PlayerData : ScriptableObject
         get
         {
             return playerMaxEnergy;
+        }
+        set
+        {
+            playerMaxEnergy = value;
         }
     }
 
@@ -66,6 +82,10 @@ public class PlayerData : ScriptableObject
         {
             return playerExperience;
         }
+        set 
+        {
+            playerExperience = value;
+        }
     }
 
     public int PlayerExperienceUntilNextLevel
@@ -74,6 +94,10 @@ public class PlayerData : ScriptableObject
         {
             return playerExperienceUntilNextLevel;
         }
+        set
+        {
+            playerExperienceUntilNextLevel = value;
+        }
     }
 
     public int DaysPassed
@@ -81,6 +105,10 @@ public class PlayerData : ScriptableObject
         get
         {
             return daysPassed;
+        }
+        set
+        {
+            daysPassed = value;
         }
     }
 
