@@ -24,33 +24,46 @@ public class PlayerJump : MonoBehaviour
   void Update()
   {
 
-    if (!isMoving)
+    // if (!isMoving)
+    // {
+
+    if (Input.GetMouseButton(0))
     {
+      // StartCoroutine("MoveForward");
+      // counter++;
 
-      if (Input.GetButtonDown("Jump"))
-      {
-        StartCoroutine("MoveForward");
-        counter++;
+      // if (counter % 2 != 0)
+      // {
+      //   StopCoroutine("MoveForward");
+      //   isMoving = false;
 
-        if (counter % 2 != 0)
-        {
-          StopCoroutine("MoveForward");
-          isMoving = false;
+      // }
 
-        }
+      Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-      }
+      Vector3 movingThingsPos = rigidbody.transform.position;
+      Vector3 dir = pos - movingThingsPos;
+      dir.Normalize();
+
+      rigidbody.transform.Translate(dir * 50 * Time.deltaTime);
 
     }
+
+    //    }
+
+
+
   }
 
 
   private IEnumerator MoveForward()
   {
     isMoving = true;
-    // Touch touch = Input.GetTouch(1);
-
-    // Debug.Log(touch.position);
+    if (Input.touchCount > 0)
+    {
+      Touch touch = Input.GetTouch(0);
+      Debug.Log(touch);
+    }
     transform.Translate(Vector3.up * 20 * Time.deltaTime);
 
     yield return new WaitForSeconds(.1f);
