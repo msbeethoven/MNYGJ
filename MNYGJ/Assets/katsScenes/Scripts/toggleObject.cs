@@ -12,12 +12,18 @@ public class toggleObject : MonoBehaviour
    public GameObject CharacterDialogue;
    public GameObject CustomizeAvatar; 
 
+   public GameObject MiniMap; 
+
 
     // Start is called before the first frame update
     void Start()
     {
         CharacterDialogue.SetActive(false); 
         CustomizeAvatar.SetActive(true); 
+        MiniMap.SetActive(true); 
+        MiniMap.transform.GetChild(0).gameObject.SetActive(false); 
+        MiniMap.transform.GetChild(1).gameObject.SetActive(false); 
+
     }
 
     // Update is called once per frame
@@ -38,12 +44,10 @@ public class toggleObject : MonoBehaviour
     }
     IEnumerator loadObjects (float delay)
     {
-      Debug.Log("started corouting loadObjects waiting for seconds:" + delay);
       yield return new WaitForSeconds(delay);
-      Debug.Log("succesfully got past the wait for seconds");
       CharacterDialogue.transform.GetChild(2).gameObject.SetActive(true);
       yield return new WaitForSeconds(delay2); 
-      CharacterDialogue.transform.GetChild(2).gameObject.SetActive(false); 
+      CharacterDialogue.transform.GetChild(2).gameObject.SetActive(true); 
       CharacterDialogue.transform.GetChild(3).gameObject.SetActive(true); 
       yield return new WaitForSeconds(delay3); 
       CharacterDialogue.transform.GetChild(3).gameObject.SetActive(false);

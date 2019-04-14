@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.UI; 
 using UnityEngine.SceneManagement; 
 
+
 public class ButtonHandler : MonoBehaviour
 {
+    public GameObject MiniMap; 
 
 
 public void playBtn(){
@@ -30,11 +32,18 @@ public void loadAvatarSelection(){
     
 }
 
+public void loadMiniMapIcon() {
+
+    
+    MiniMap.transform.GetChild(0).gameObject.SetActive(true); 
+
+
+}
+
 public void loadMiniMap() {
 
-    SceneManager.LoadScene("MiniMap"); 
-    
-
+    Debug.Log("Mini Map Working");
+    MiniMap.transform.GetChild(1).gameObject.SetActive(true); 
 }
 
 public void loadRunner() {
