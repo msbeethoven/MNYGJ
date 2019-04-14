@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6232bad3f32bc4c24a21e6ce19a1e024, type: 3}
+  m_Name: BikeCourier
+  m_EditorClassIdentifier: 
+  contractJobName: 
+  experiencePoints: 0
+  dailySalary: 0
+  jobDurationInHours: 0
+  latenessFee: 0
