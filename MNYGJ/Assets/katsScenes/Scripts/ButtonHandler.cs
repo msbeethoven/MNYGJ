@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonHandler : MonoBehaviour
 {
+
+
 public void playBtn(){
     SceneManager.LoadScene("AvatarSelection"); 
 }
@@ -15,19 +17,23 @@ public void leaveBtn(){
     Debug.Log("Quit Application");
 }
 
-public void loadCutScene() {
-
-    SceneManager.LoadScene("IntroCutScene"); 
+public void loadGameMenu() {
+    SceneManager.LoadScene("GameMenu");
 }
+
+
+
 
 public void loadAvatarSelection(){
     
     SceneManager.LoadScene("AvatarSelection"); 
+    
 }
 
 public void loadMiniMap() {
 
     SceneManager.LoadScene("MiniMap"); 
+    
 
 }
 

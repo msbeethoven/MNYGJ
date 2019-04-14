@@ -358,6 +358,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9369eda6011c4fb9aaee534e713b7c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 3
+  CharacterDialogue: {fileID: 0}
+  CustomizeAvatar: {fileID: 0}
+  Man: {fileID: 0}
+  Woman: {fileID: 0}
+  Convo: {fileID: 0}
 --- !u!1 &460761166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,7 +1484,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 330859523}
-        m_MethodName: playBtn
+        m_MethodName: loadAvatarSelection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
