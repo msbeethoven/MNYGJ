@@ -16,6 +16,6 @@ public class splashLoad : MonoBehaviour
     IEnumerator LoadLevelAfterDelay (float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(GameMenu); 
+        SceneManager.LoadScene(GameMenu, LoadSceneMode.Single); 
     }
 }
