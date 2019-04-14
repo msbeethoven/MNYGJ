@@ -53,11 +53,11 @@ public class PlayerJump : MonoBehaviour
 
       // }
 
-      Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+      Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-      Vector3 movingThingsPos = rigidbody.transform.position;
-      //Vector3 movingThingsPos = new Vector3(transform.position.x, transform.position.y, -0.0001f);
-      Vector3 dir = pos - movingThingsPos;
+      Vector2 movingThingsPos = rigidbody.transform.position;
+      //Vector2 movingThingsPos = new Vector2(transform.position.x, transform.position.y, 0);
+      Vector2 dir = pos - movingThingsPos;
       dir.Normalize();
 
       rigidbody.transform.Translate(dir * 10 * Time.deltaTime);
