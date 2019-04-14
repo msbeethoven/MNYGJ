@@ -9,11 +9,11 @@ public class PlayerDataUI : MonoBehaviour
     [SerializeField]
     private Text playerName;
     [SerializeField]
-    private Text playerMoney;
-    [SerializeField]
     private Text playerCurrentEnergy;
     [SerializeField]
     private Text playerMaxEnergy;
+    [SerializeField]
+    private Text playerMoney;
     [SerializeField]
     private Text playerExperience;
     [SerializeField]
@@ -24,9 +24,9 @@ public class PlayerDataUI : MonoBehaviour
     public void UpdateDisplayUI(PlayerData playerData)
     {
         playerName.text = playerData.PlayerName;
-        playerMoney.text = playerData.PlayerMoney.ToString();
         playerCurrentEnergy.text = playerData.PlayerCurrentEnergy.ToString();
         playerMaxEnergy.text = playerData.PlayerMaxEnergy.ToString();
+        playerMoney.text = playerData.PlayerMoney.ToString();
         playerExperience.text = playerData.PlayerExperience.ToString();
         playerExperience.text = playerData.PlayerExperienceUntilNextLevel.ToString();
 
