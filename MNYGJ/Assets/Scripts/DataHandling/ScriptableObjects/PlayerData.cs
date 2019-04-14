@@ -10,11 +10,15 @@ public class PlayerData : ScriptableObject
     [SerializeField]
     private int playerMoney;
     [SerializeField]
-    private int playerEnergy;
+    private int playerCurrentEnergy;
     [SerializeField]
     private int playerMaxEnergy;
     [SerializeField]
     private int playerExperience;
+    [SerializeField]
+    private int playerExperienceUntilNextLevel;
+    [SerializeField]
+    private int playerLevel;
 
     //todo: HOW DO MEASURE EXPERIENCE?!
 
@@ -40,11 +44,11 @@ public class PlayerData : ScriptableObject
         }
     }
 
-    public int PlayerEnergy
+    public int PlayerCurrentEnergy
     {
         get
         {
-            return playerEnergy;
+            return playerCurrentEnergy;
         }
     }
 
@@ -61,6 +65,14 @@ public class PlayerData : ScriptableObject
         get
         {
             return playerExperience;
+        }
+    }
+
+    public int PlayerExperienceUntilNextLevel
+    {
+        get
+        {
+            return playerExperienceUntilNextLevel;
         }
     }
 

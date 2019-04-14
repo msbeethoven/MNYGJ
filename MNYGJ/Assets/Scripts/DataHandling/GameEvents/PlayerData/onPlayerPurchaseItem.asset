@@ -9,11 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6232bad3f32bc4c24a21e6ce19a1e024, type: 3}
-  m_Name: DogWalking
+  m_Script: {fileID: 11500000, guid: 23668301c1ff94b77b74aa8f06245a4b, type: 3}
+  m_Name: onPlayerPurchaseItem
   m_EditorClassIdentifier: 
-  contractJobName: 
-  experiencePoints: 0
-  dailySalary: 0
-  jobDurationInHours: 0
-  latenessFee: 0
