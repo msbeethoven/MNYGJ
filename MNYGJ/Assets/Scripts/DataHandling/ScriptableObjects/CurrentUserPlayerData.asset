@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Mabel
   playerMoney: 100
-  playerEnergy: 100
-  playerMaxEnergy: 0
-  playerExperience: 0
-  daysPassed: 0
+  playerCurrentEnergy: 100
+  playerMaxEnergy: 100
+  playerExperience: 5
+  playerExperienceUntilNextLevel: 100
+  playerLevel: 1
+  daysPassed: 1
