@@ -12,6 +12,7 @@ public class toggleObject : MonoBehaviour
    public GameObject CharacterDialogue;
    public GameObject CustomizeAvatar; 
 
+  public GameObject Hud; 
    public GameObject MiniMap; 
 
 
@@ -23,6 +24,7 @@ public class toggleObject : MonoBehaviour
         MiniMap.SetActive(true); 
         MiniMap.transform.GetChild(0).gameObject.SetActive(false); 
         MiniMap.transform.GetChild(1).gameObject.SetActive(false); 
+        Hud.SetActive(false); 
 
     }
 
@@ -33,6 +35,7 @@ public class toggleObject : MonoBehaviour
     CustomizeAvatar.SetActive(false); 
     CustomizeAvatar.SetActive(false); 
     CharacterDialogue.SetActive(true); 
+    Hud.SetActive(true); 
     CharacterDialogue.transform.GetChild(2).gameObject.SetActive(false);
     CharacterDialogue.transform.GetChild(3).gameObject.SetActive(false); 
     CharacterDialogue.transform.GetChild(4).gameObject.SetActive(false); 

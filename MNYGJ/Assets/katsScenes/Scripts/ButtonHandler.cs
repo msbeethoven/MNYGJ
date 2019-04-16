@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class ButtonHandler : MonoBehaviour
 {
     public GameObject MiniMap; 
-
+    public GameObject HUD; 
 
 public void playBtn(){
     SceneManager.LoadScene("AvatarSelection"); 
@@ -44,10 +44,16 @@ public void loadMiniMap() {
 
     Debug.Log("Mini Map Working");
     MiniMap.transform.GetChild(1).gameObject.SetActive(true); 
+    HUD.SetActive(false); 
 }
 
 public void loadRunner() {
 
     SceneManager.LoadScene("Runner"); 
 }
+
+public void loadHome() {
+    SceneManager.LoadScene("HomeScene"); 
+}
+
 }
