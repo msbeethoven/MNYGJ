@@ -28,7 +28,7 @@ public void loadGameMenu() {
 
 public void loadAvatarSelection(){
     
-    SceneManager.LoadScene("AvatarSelection"); 
+    SceneManager.LoadScene("AvatarSelectionNEW"); 
     
 }
 
