@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b952ee141572e4ff1abae9644371eb6b
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 9
-=======
-guid: d275bd0d8355d4374b11b94fc707ae20
-TextureImporter:
-  fileIDToRecycleName: {}
-  externalObjects: {}
-  serializedVersion: 5
->>>>>>> 17e79795965a8ca6527d9ef39120e3cf00eccceb
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,11 +21,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
-<<<<<<< HEAD
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-=======
->>>>>>> 17e79795965a8ca6527d9ef39120e3cf00eccceb
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -44,14 +33,10 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-<<<<<<< HEAD
     mipBias: -100
-=======
-    mipBias: -1
->>>>>>> 17e79795965a8ca6527d9ef39120e3cf00eccceb
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -84,27 +69,53 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-    spriteID: 87208525cc7a543cda3867f54d2448ab
-=======
-    spriteID: 12d7ac48e84d74cb38384ca6de13997c
->>>>>>> 17e79795965a8ca6527d9ef39120e3cf00eccceb
+    spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
-<<<<<<< HEAD
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-=======
->>>>>>> 17e79795965a8ca6527d9ef39120e3cf00eccceb
   userData: 
   assetBundleName: 
   assetBundleVariant: 
