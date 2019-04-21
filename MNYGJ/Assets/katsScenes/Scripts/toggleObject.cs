@@ -4,47 +4,42 @@ using UnityEngine;
 
 public class toggleObject : MonoBehaviour
 {
-   public float delay = 1f; 
-   public float delay2 =2f; 
 
-   public float delay3 =4f; 
-   public float delay4 = 5f; 
-   public GameObject CharacterDialogue;
+   public GameObject minimapIcon;
 
-  public GameObject Hud; 
-   public GameObject MiniMap; 
+   public GameObject agentPanel;
+   public GameObject answerPanel;
+   public GameObject buttonOverlay;
+
 
 
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
-        MiniMap.SetActive(true); 
-        MiniMap.transform.GetChild(0).gameObject.SetActive(false); 
-        MiniMap.transform.GetChild(1).gameObject.SetActive(false); 
-        Hud.SetActive(true); 
-        CharacterDialogue.transform.GetChild(2).gameObject.SetActive(false);
-        CharacterDialogue.transform.GetChild(3).gameObject.SetActive(false); 
-        CharacterDialogue.transform.GetChild(4).gameObject.SetActive(false); 
-        CharacterDialogue.transform.GetChild(5).gameObject.SetActive(false); 
+        minimapIcon.SetActive(false);
+        agentPanel.SetActive(false);
+        answerPanel.SetActive(false);
+        buttonOverlay.SetActive(false); 
 
-        StartCoroutine("loadObjects", delay); 
-        StartCoroutine("loadObjects", delay2);
-        StartCoroutine("loadObjects", delay3); 
+        yield return loadObjects();
+        // StartCoroutine("loadObjects"); 
+
     }
 
-    IEnumerator loadObjects (float delay)
+    IEnumerator loadObjects()
     {
-      yield return new WaitForSeconds(delay);
-      CharacterDialogue.transform.GetChild(2).gameObject.SetActive(true);
-      yield return new WaitForSeconds(delay2); 
-      CharacterDialogue.transform.GetChild(2).gameObject.SetActive(true); 
-      CharacterDialogue.transform.GetChild(3).gameObject.SetActive(true); 
-      yield return new WaitForSeconds(delay3); 
-      CharacterDialogue.transform.GetChild(3).gameObject.SetActive(false);
-      CharacterDialogue.transform.GetChild(4).gameObject.SetActive(true); 
-      CharacterDialogue.transform.GetChild(5).gameObject.SetActive(true); 
-
+      yield return new WaitForSeconds(1f);
+      agentPanel.SetActive(true);
+      yield return new WaitForSeconds(2f); 
+      // agentPanel.SetActive(true); 
+      answerPanel.SetActive(true); 
+      yield return new WaitForSeconds(3f); 
+      // answerPanel.SetActive(false);
+      // agentPanel.SetActive(false);
+      buttonOverlay.SetActive(true); 
     }
+
+
   
 
     

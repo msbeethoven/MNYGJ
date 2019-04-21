@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/katsScenes/GameMenu.unity
     guid: 84f1af61fbd564a56b8b6e51c543586a
-  - enabled: 1
+  - enabled: 0
     path: Assets/katsScenes/MiniMap.unity
     guid: c37bb546826f74bb8bbd2739456d52ef
   - enabled: 1
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/katsScenes/HomeScene.unity
     guid: 42a01109627db4efaab37b1c974d9758
+  - enabled: 1
+    path: Assets/katsScenes/NYCMiniMap.unity
+    guid: 44694e3759d1d48f191c6b742e180d55
   m_configObjects: {}

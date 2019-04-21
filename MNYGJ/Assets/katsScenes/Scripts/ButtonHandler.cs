@@ -7,53 +7,42 @@ using UnityEngine.SceneManagement;
 
 public class ButtonHandler : MonoBehaviour
 {
-    public GameObject MiniMap; 
-    public GameObject HUD; 
 
-public void playBtn(){
-    SceneManager.LoadScene("AvatarSelection"); 
-}
+    public GameObject minimapIcon;
 
-public void leaveBtn(){
-    Application.Quit(); 
-    Debug.Log("Quit Application");
-}
+    public void playBtn(){
+        SceneManager.LoadScene("AvatarSelection"); 
+    }
 
-public void loadGameMenu() {
-    SceneManager.LoadScene("GameMenu");
-}
+    public void leaveBtn(){
+        Application.Quit(); 
+    }
 
+    public void loadGameMenu() {
+        SceneManager.LoadScene("GameMenu");
+    }
 
+    public void loadAvatarSelection(){
 
+        SceneManager.LoadScene("AvatarSelectionNEW"); 
+    }
 
-public void loadAvatarSelection(){
-    
-    SceneManager.LoadScene("AvatarSelectionNEW"); 
-    
-}
+    public void loadMiniMapIcon() {
+        minimapIcon.SetActive(true); 
+    }
 
-public void loadMiniMapIcon() {
+    public void loadMiniMap() {
+        SceneManager.LoadScene("NYCMiniMap");
+        // MiniMap.transform.GetChild(1).gameObject.SetActive(true); 
+    }
 
-    
-    MiniMap.transform.GetChild(0).gameObject.SetActive(true); 
+    public void loadRunner() {
 
+        SceneManager.LoadScene("Runner"); 
+    }
 
-}
-
-public void loadMiniMap() {
-
-    Debug.Log("Mini Map Working");
-    MiniMap.transform.GetChild(1).gameObject.SetActive(true); 
-    HUD.SetActive(false); 
-}
-
-public void loadRunner() {
-
-    SceneManager.LoadScene("Runner"); 
-}
-
-public void loadHome() {
-    SceneManager.LoadScene("HomeScene"); 
-}
+    public void loadHome() {
+        SceneManager.LoadScene("HomeScene"); 
+    }
 
 }
