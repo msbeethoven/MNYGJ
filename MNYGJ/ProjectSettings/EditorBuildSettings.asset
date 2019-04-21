@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/katsScenes/SplashScreen.unity
     guid: b6b36bf0d480648319e69dd47dd9ecc5
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/katsScenes/AvatarSelectionNEW.unity
+    guid: 061f9d0f469f84424969b129216b5c8c
   - enabled: 1
     path: Assets/katsScenes/AvatarSelection.unity
     guid: 3f7a0b871132340eaa21e71246f59cb2

@@ -10,7 +10,6 @@ public class toggleObject : MonoBehaviour
    public float delay3 =4f; 
    public float delay4 = 5f; 
    public GameObject CharacterDialogue;
-   public GameObject CustomizeAvatar; 
 
   public GameObject Hud; 
    public GameObject MiniMap; 
@@ -19,32 +18,20 @@ public class toggleObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CharacterDialogue.SetActive(false); 
-        CustomizeAvatar.SetActive(true); 
         MiniMap.SetActive(true); 
         MiniMap.transform.GetChild(0).gameObject.SetActive(false); 
         MiniMap.transform.GetChild(1).gameObject.SetActive(false); 
-        Hud.SetActive(false); 
+        Hud.SetActive(true); 
+        CharacterDialogue.transform.GetChild(2).gameObject.SetActive(false);
+        CharacterDialogue.transform.GetChild(3).gameObject.SetActive(false); 
+        CharacterDialogue.transform.GetChild(4).gameObject.SetActive(false); 
+        CharacterDialogue.transform.GetChild(5).gameObject.SetActive(false); 
 
+        StartCoroutine("loadObjects", delay); 
+        StartCoroutine("loadObjects", delay2);
+        StartCoroutine("loadObjects", delay3); 
     }
 
-    // Update is called once per frame
-   public void loadCutScene() {
-
-    CharacterDialogue.SetActive(true); 
-    CustomizeAvatar.SetActive(false); 
-    CustomizeAvatar.SetActive(false); 
-    CharacterDialogue.SetActive(true); 
-    Hud.SetActive(true); 
-    CharacterDialogue.transform.GetChild(2).gameObject.SetActive(false);
-    CharacterDialogue.transform.GetChild(3).gameObject.SetActive(false); 
-    CharacterDialogue.transform.GetChild(4).gameObject.SetActive(false); 
-    CharacterDialogue.transform.GetChild(5).gameObject.SetActive(false); 
-
-    StartCoroutine("loadObjects", delay); 
-    StartCoroutine("loadObjects", delay2);
-    StartCoroutine("loadObjects", delay3); 
-    }
     IEnumerator loadObjects (float delay)
     {
       yield return new WaitForSeconds(delay);
