@@ -1,34 +1,89 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerJump : MonoBehaviour
 {
+ public static PlayerJump instance;
+  public float counter = 0;
+  // public float moveForce = 10f;
+  // private bool isMoving = false;
+  // public Vector2 endPosition;
+  // public Vector2 startPosition;
+  private new Rigidbody2D rigidbody;
+  public float scrollSpeed = -1.5f;
 
-    public float jumpForce = 400f; 
-    private bool isJumping = false;
-    private Rigidbody2D rigidbody;
-    // Start is called before the first frame update
-    private void Start()
+  public bool gameOver = false;
+
+  // Start is called before the first frame update
+
+  void Start()
+  {
+    rigidbody = GetComponent<Rigidbody2D>();
+
+  }
+
+  void Awake(){
+      if (instance == null){
+          instance = this;
+      }
+      else if (instance != this){
+          Destroy(gameObject);
+      }
+  }
+
+  // Update is called once per frame
+  void Update()
+  {
+
+    // if (!isMoving)
+    // {
+
+    if (Input.GetMouseButton(0))
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+      // StartCoroutine("MoveForward");
+      // counter++;
+
+      // if (counter % 2 != 0)
+      // {
+      //   StopCoroutine("MoveForward");
+      //   isMoving = false;
+
+      // }
+
+      Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+      Vector2 movingThingsPos = rigidbody.transform.position;
+      //Vector2 movingThingsPos = new Vector2(transform.position.x, transform.position.y, 0);
+      Vector2 dir = pos - movingThingsPos;
+      dir.Normalize();
+
+      rigidbody.transform.Translate(dir * 10 * Time.deltaTime);
 
     }
 
-    // Update is called once per frame
-    private void Update()
-    {
-        if (!isJumping) {
-            isJumping = Input.GetButtonDown("Jump");
-        }
-        
-    }
+    //    }
 
-    private void FixedUpdate(){
 
-        if(isJumping){
-            rigidbody.AddForce(new Vector2(0f, jumpForce));
-            isJumping = false;
-        }
-    }
+
+  }
+
+
+  // private IEnumerator MoveForward()
+  // {
+  //   isMoving = true;
+  //   if (Input.touchCount > 0)
+  //   {
+  //     Touch touch = Input.GetTouch(0);
+  //     Debug.Log(touch);
+  //   }
+  //   transform.Translate(Vector3.up * 20 * Time.deltaTime);
+
+  //   yield return new WaitForSeconds(.1f);
+  //   isMoving = false;
+  //   yield return null;
+  // }
+
 }
