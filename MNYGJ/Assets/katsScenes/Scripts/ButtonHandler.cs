@@ -42,7 +42,7 @@ public class ButtonHandler : MonoBehaviour
     }
 
     public void loadHome() {
-        SceneManager.LoadScene("HomeScene"); 
+        playBtn();
     }
 
 }

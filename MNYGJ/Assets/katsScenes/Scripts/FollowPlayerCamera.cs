@@ -14,7 +14,13 @@ public class FollowPlayerCamera : MonoBehaviour
 
     Camera _camera;
 
-    void Awake() { _camera = GetComponent<Camera>(); }
+    Vector3 _startPosition;
+
+    void Awake() 
+    {
+        _camera = GetComponent<Camera>();
+        _startPosition = transform.position;
+    }
     void Update()
     {
         Vector2 viewportPosition = _camera.WorldToViewportPoint(_playerTransform.position);
@@ -22,7 +28,7 @@ public class FollowPlayerCamera : MonoBehaviour
         if (viewportY > _maxViewportY)
         {
             transform.Translate(0, _upTranslation, 0, Space.World);
-        } else if (viewportY < _minViewportY)
+        } else if (viewportY < _minViewportY && transform.position != _startPosition)
         {
             transform.Translate(0, _downTranslation, 0, Space.World);
         }

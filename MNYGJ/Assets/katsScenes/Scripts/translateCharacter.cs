@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class translateCharacter : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject _victoryObject;
 
     private Vector3 _startPosition;
     public float speed = 10f;
@@ -36,6 +38,12 @@ public class translateCharacter : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        transform.position = _startPosition;
+        if (collider.tag == "Obstacle")
+        {
+            transform.position = _startPosition;
+        } else if (collider.tag == "Victory")
+        {
+            _victoryObject.SetActive(true);
+        }
     }
 }
