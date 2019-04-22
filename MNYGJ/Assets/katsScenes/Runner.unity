@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 44375289}
   - component: {fileID: 44375290}
+  - component: {fileID: 44375291}
   m_Layer: 0
   m_Name: car1 (4)
   m_TagString: Untagged
@@ -191,6 +192,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &44375291
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44375288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &112798233
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124930329}
   - component: {fileID: 124930330}
+  - component: {fileID: 124930331}
   m_Layer: 0
   m_Name: Cab (10)
   m_TagString: Untagged
@@ -300,7 +328,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &124930330
 SpriteRenderer:
@@ -350,6 +378,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &124930331
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124930328}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &126228683
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169790953}
   - component: {fileID: 169790954}
+  - component: {fileID: 169790955}
   m_Layer: 0
   m_Name: car2 (3)
   m_TagString: Untagged
@@ -588,6 +643,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &169790955
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169790952}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &170530062
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,7 +895,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2fdbfab6977544df5a99e9cba0d5f34a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37b64ad0452a44594a38040d5368771c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -822,7 +903,7 @@ SpriteRenderer:
   m_Size: {x: 0.81, y: 1.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &243663204
@@ -835,6 +916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 243663205}
   - component: {fileID: 243663206}
+  - component: {fileID: 243663207}
   m_Layer: 0
   m_Name: Cab (1)
   m_TagString: Untagged
@@ -854,7 +936,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &243663206
 SpriteRenderer:
@@ -904,6 +986,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &243663207
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243663204}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &253037694
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +1080,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -980,7 +1088,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &263009238
@@ -993,6 +1101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263009239}
   - component: {fileID: 263009240}
+  - component: {fileID: 263009241}
   m_Layer: 0
   m_Name: car1 (5)
   m_TagString: Untagged
@@ -1062,6 +1171,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &263009241
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263009238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &299575976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,7 +1265,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1138,7 +1273,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &325217767
@@ -1209,7 +1344,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1217,7 +1352,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &343618489
@@ -1310,6 +1445,7 @@ GameObject:
   - component: {fileID: 348278177}
   - component: {fileID: 348278179}
   - component: {fileID: 348278178}
+  - component: {fileID: 348278180}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (3)
   m_TagString: Untagged
@@ -1329,7 +1465,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 40
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &348278178
 Animator:
@@ -1398,6 +1534,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &348278180
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348278176}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.26, y: 0.76}
+    newSize: {x: 1.26, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.54}
+  m_EdgeRadius: 0
 --- !u!1 &357133764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397735612}
   - component: {fileID: 397735613}
+  - component: {fileID: 397735614}
   m_Layer: 0
   m_Name: Cab (4)
   m_TagString: Untagged
@@ -1585,7 +1748,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &397735613
 SpriteRenderer:
@@ -1635,6 +1798,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &397735614
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397735611}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &430060766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1892,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1711,7 +1900,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &502990990
@@ -1804,6 +1993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 527563562}
   - component: {fileID: 527563563}
+  - component: {fileID: 527563564}
   m_Layer: 0
   m_Name: Cab (9)
   m_TagString: Untagged
@@ -1823,7 +2013,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &527563563
 SpriteRenderer:
@@ -1873,6 +2063,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &527563564
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527563561}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &548571044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,6 +2099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 548571045}
   - component: {fileID: 548571046}
+  - component: {fileID: 548571047}
   m_Layer: 0
   m_Name: waterTaxi
   m_TagString: Untagged
@@ -1952,6 +2169,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &548571047
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548571044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.93, y: 1.7}
+    newSize: {x: 3.93, y: 1.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.34, y: 1.05}
+  m_EdgeRadius: 0
 --- !u!1 &551066035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,6 +2206,7 @@ GameObject:
   - component: {fileID: 551066038}
   - component: {fileID: 551066037}
   - component: {fileID: 551066036}
+  - component: {fileID: 551066039}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2034,6 +2278,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &551066039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551066035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d6212351b4f4f30a8f9e5dcf1cbed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _minViewportY: 0.2
+  _maxViewportY: 0.8
+  _downTranslation: -0.01
+  _upTranslation: 0.01
 --- !u!1 &552614013
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561519639}
   - component: {fileID: 561519640}
+  - component: {fileID: 561519641}
   m_Layer: 0
   m_Name: car2 (1)
   m_TagString: Untagged
@@ -2192,6 +2454,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &561519641
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561519638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &577222417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,7 +2740,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2460,7 +2748,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &608794765
@@ -2552,6 +2840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 674424249}
   - component: {fileID: 674424250}
+  - component: {fileID: 674424251}
   m_Layer: 0
   m_Name: Cab (11)
   m_TagString: Untagged
@@ -2571,7 +2860,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &674424250
 SpriteRenderer:
@@ -2621,6 +2910,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &674424251
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674424248}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &679279737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,7 +3083,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2776,7 +3091,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &817591199
@@ -2994,6 +3309,7 @@ GameObject:
   - component: {fileID: 864278197}
   - component: {fileID: 864278199}
   - component: {fileID: 864278198}
+  - component: {fileID: 864278200}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (2)
   m_TagString: Untagged
@@ -3013,7 +3329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 39
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &864278198
 Animator:
@@ -3082,6 +3398,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &864278200
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864278196}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.26, y: 0.76}
+    newSize: {x: 1.26, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.54}
+  m_EdgeRadius: 0
 --- !u!1 &868964228
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +3434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868964229}
   - component: {fileID: 868964230}
+  - component: {fileID: 868964231}
   m_Layer: 0
   m_Name: Cab (13)
   m_TagString: Untagged
@@ -3111,7 +3454,7 @@ Transform:
   m_LocalScale: {x: 0.71999997, y: 0.71999997, z: 0.80152}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 44
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &868964230
 SpriteRenderer:
@@ -3161,6 +3504,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &868964231
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868964228}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.17}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 0.69}
+  m_EdgeRadius: 0
 --- !u!1 &869813854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3299,6 +3668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 871267434}
   - component: {fileID: 871267435}
+  - component: {fileID: 871267436}
   m_Layer: 0
   m_Name: car1
   m_TagString: Untagged
@@ -3368,6 +3738,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &871267436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871267433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &913903641
 GameObject:
   m_ObjectHideFlags: 0
@@ -3436,7 +3832,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3444,7 +3840,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &971328905
@@ -3515,7 +3911,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3523,7 +3919,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &996566522
@@ -3653,6 +4049,7 @@ Transform:
   - {fileID: 1648319159}
   - {fileID: 1552739683}
   - {fileID: 1969036549}
+  - {fileID: 1759111156}
   - {fileID: 1043803938}
   - {fileID: 243663205}
   - {fileID: 2139807308}
@@ -3665,6 +4062,8 @@ Transform:
   - {fileID: 527563562}
   - {fileID: 124930329}
   - {fileID: 674424249}
+  - {fileID: 1827928933}
+  - {fileID: 868964229}
   - {fileID: 1047492573}
   - {fileID: 1012177399}
   - {fileID: 1230816865}
@@ -3676,9 +4075,6 @@ Transform:
   - {fileID: 864278197}
   - {fileID: 348278177}
   - {fileID: 2103202553}
-  - {fileID: 1827928933}
-  - {fileID: 1759111156}
-  - {fileID: 868964229}
   m_Father: {fileID: 1353131136}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3730,7 +4126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 32
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1012177400
 Animator:
@@ -3840,6 +4236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043803938}
   - component: {fileID: 1043803939}
+  - component: {fileID: 1043803940}
   m_Layer: 0
   m_Name: Cab
   m_TagString: Untagged
@@ -3859,7 +4256,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1043803939
 SpriteRenderer:
@@ -3909,6 +4306,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1043803940
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043803937}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &1047492572
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,7 +4361,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 31
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1047492574
 Animator:
@@ -3970,6 +4393,7 @@ GameObject:
   - component: {fileID: 1087910780}
   - component: {fileID: 1087910782}
   - component: {fileID: 1087910781}
+  - component: {fileID: 1087910783}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (1)
   m_TagString: Untagged
@@ -3989,7 +4413,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 38
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &1087910781
 Animator:
@@ -4058,6 +4482,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1087910783
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087910779}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.26, y: 0.76}
+    newSize: {x: 1.26, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.54}
+  m_EdgeRadius: 0
 --- !u!1 &1099778547
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,6 +4597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124249333}
   - component: {fileID: 1124249334}
+  - component: {fileID: 1124249335}
   m_Layer: 0
   m_Name: car2 (5)
   m_TagString: Untagged
@@ -4216,6 +4667,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1124249335
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124249332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1133280622
 GameObject:
   m_ObjectHideFlags: 0
@@ -4363,7 +4840,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2fdbfab6977544df5a99e9cba0d5f34a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37b64ad0452a44594a38040d5368771c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4371,7 +4848,7 @@ SpriteRenderer:
   m_Size: {x: 0.81, y: 1.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1185055715
@@ -4442,7 +4919,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2fdbfab6977544df5a99e9cba0d5f34a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37b64ad0452a44594a38040d5368771c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4450,7 +4927,7 @@ SpriteRenderer:
   m_Size: {x: 0.81, y: 1.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1185152835
@@ -4463,6 +4940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185152836}
   - component: {fileID: 1185152837}
+  - component: {fileID: 1185152838}
   m_Layer: 0
   m_Name: car1 (2)
   m_TagString: Untagged
@@ -4532,6 +5010,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1185152838
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185152835}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1223845729
 GameObject:
   m_ObjectHideFlags: 0
@@ -4679,7 +5183,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2fdbfab6977544df5a99e9cba0d5f34a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37b64ad0452a44594a38040d5368771c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4687,7 +5191,7 @@ SpriteRenderer:
   m_Size: {x: 0.81, y: 1.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1230816864
@@ -4719,7 +5223,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 33
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1230816866
 SpriteRenderer:
@@ -4969,6 +5473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1377263279}
   - component: {fileID: 1377263280}
+  - component: {fileID: 1377263281}
   m_Layer: 0
   m_Name: waterTaxi (1)
   m_TagString: Untagged
@@ -5038,6 +5543,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1377263281
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377263278}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.93, y: 1.7}
+    newSize: {x: 3.93, y: 1.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.34, y: 1.05}
+  m_EdgeRadius: 0
 --- !u!1 &1378593158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5127,6 +5658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1409705815}
   - component: {fileID: 1409705816}
+  - component: {fileID: 1409705817}
   m_Layer: 0
   m_Name: car1 (3)
   m_TagString: Untagged
@@ -5196,6 +5728,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1409705817
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409705814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1503368887
 GameObject:
   m_ObjectHideFlags: 0
@@ -5304,7 +5862,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 36
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1504021256
 SpriteRenderer:
@@ -5364,6 +5922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516613261}
   - component: {fileID: 1516613262}
+  - component: {fileID: 1516613263}
   m_Layer: 0
   m_Name: Cab (8)
   m_TagString: Untagged
@@ -5383,7 +5942,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1516613262
 SpriteRenderer:
@@ -5433,6 +5992,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1516613263
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516613260}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &1520317358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5501,7 +6086,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5509,7 +6094,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1542502088
@@ -5522,6 +6107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542502089}
   - component: {fileID: 1542502090}
+  - component: {fileID: 1542502091}
   m_Layer: 0
   m_Name: car2 (4)
   m_TagString: Untagged
@@ -5591,6 +6177,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1542502091
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542502088}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1552739682
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,6 +6213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552739683}
   - component: {fileID: 1552739684}
+  - component: {fileID: 1552739685}
   m_Layer: 0
   m_Name: car2 (7)
   m_TagString: Untagged
@@ -5670,6 +6283,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1552739685
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552739682}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1568011356
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,6 +6319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568011357}
   - component: {fileID: 1568011358}
+  - component: {fileID: 1568011359}
   m_Layer: 0
   m_Name: car1 (1)
   m_TagString: Untagged
@@ -5749,6 +6389,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1568011359
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568011356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1581431911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5759,6 +6425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581431912}
   - component: {fileID: 1581431913}
+  - component: {fileID: 1581431914}
   m_Layer: 0
   m_Name: Cab (3)
   m_TagString: Untagged
@@ -5778,7 +6445,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1581431913
 SpriteRenderer:
@@ -5828,6 +6495,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1581431914
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581431911}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &1587619191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,6 +6611,7 @@ GameObject:
   - component: {fileID: 1594651147}
   - component: {fileID: 1594651149}
   - component: {fileID: 1594651148}
+  - component: {fileID: 1594651150}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1
   m_TagString: Untagged
@@ -5937,7 +6631,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 37
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1594651148
 Animator:
@@ -6006,6 +6700,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1594651150
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594651146}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.26, y: 0.76}
+    newSize: {x: 1.26, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.54}
+  m_EdgeRadius: 0
 --- !u!1 &1624384995
 GameObject:
   m_ObjectHideFlags: 0
@@ -6016,6 +6736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1624384996}
   - component: {fileID: 1624384997}
+  - component: {fileID: 1624384998}
   m_Layer: 0
   m_Name: Cab (5)
   m_TagString: Untagged
@@ -6035,7 +6756,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1624384997
 SpriteRenderer:
@@ -6085,6 +6806,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1624384998
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624384995}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &1633849900
 GameObject:
   m_ObjectHideFlags: 0
@@ -6161,6 +6908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648319159}
   - component: {fileID: 1648319160}
+  - component: {fileID: 1648319161}
   m_Layer: 0
   m_Name: car2 (6)
   m_TagString: Untagged
@@ -6230,6 +6978,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1648319161
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648319158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1668773298
 GameObject:
   m_ObjectHideFlags: 0
@@ -6385,6 +7159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702244344}
   - component: {fileID: 1702244345}
+  - component: {fileID: 1702244346}
   m_Layer: 0
   m_Name: car1 (7)
   m_TagString: Untagged
@@ -6454,6 +7229,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1702244346
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702244343}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1707450205
 GameObject:
   m_ObjectHideFlags: 0
@@ -6464,6 +7265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707450206}
   - component: {fileID: 1707450207}
+  - component: {fileID: 1707450208}
   m_Layer: 0
   m_Name: Cab (7)
   m_TagString: Untagged
@@ -6483,7 +7285,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1707450207
 SpriteRenderer:
@@ -6533,6 +7335,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1707450208
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707450205}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &1720345125
 GameObject:
   m_ObjectHideFlags: 0
@@ -6601,7 +7429,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6609,7 +7437,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1751475008
@@ -6781,6 +7609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1759111156}
   - component: {fileID: 1759111157}
+  - component: {fileID: 1759111158}
   m_Layer: 0
   m_Name: car1 (9)
   m_TagString: Untagged
@@ -6800,7 +7629,7 @@ Transform:
   m_LocalScale: {x: 0.71999997, y: 0.71999997, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 43
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1759111157
 SpriteRenderer:
@@ -6850,6 +7679,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1759111158
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759111155}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.41, y: 0.93}
+  m_EdgeRadius: 0
 --- !u!1 &1794039696
 GameObject:
   m_ObjectHideFlags: 0
@@ -6860,6 +7715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1794039697}
   - component: {fileID: 1794039698}
+  - component: {fileID: 1794039699}
   m_Layer: 0
   m_Name: car2
   m_TagString: Untagged
@@ -6929,6 +7785,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1794039699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794039696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1823820366
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,6 +7980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825271039}
   - component: {fileID: 1825271040}
+  - component: {fileID: 1825271041}
   m_Layer: 0
   m_Name: car2 (2)
   m_TagString: Untagged
@@ -7167,6 +8050,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1825271041
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825271038}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1827928932
 GameObject:
   m_ObjectHideFlags: 0
@@ -7177,6 +8086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1827928933}
   - component: {fileID: 1827928934}
+  - component: {fileID: 1827928935}
   m_Layer: 0
   m_Name: Cab (12)
   m_TagString: Untagged
@@ -7196,7 +8106,7 @@ Transform:
   m_LocalScale: {x: 0.71999997, y: 0.71999997, z: 0.80152}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 42
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1827928934
 SpriteRenderer:
@@ -7246,6 +8156,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1827928935
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827928932}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.17}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.43, y: 0.69}
+  m_EdgeRadius: 0
 --- !u!1 &1880266564
 GameObject:
   m_ObjectHideFlags: 0
@@ -7336,6 +8272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886007413}
   - component: {fileID: 1886007414}
+  - component: {fileID: 1886007415}
   m_Layer: 0
   m_Name: Cab (6)
   m_TagString: Untagged
@@ -7355,7 +8292,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1886007414
 SpriteRenderer:
@@ -7405,6 +8342,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1886007415
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886007412}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0
 --- !u!1 &1936211186
 GameObject:
   m_ObjectHideFlags: 0
@@ -7593,7 +8556,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 35
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1950273778
 SpriteRenderer:
@@ -7732,6 +8695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969036549}
   - component: {fileID: 1969036550}
+  - component: {fileID: 1969036551}
   m_Layer: 0
   m_Name: car1 (8)
   m_TagString: Untagged
@@ -7801,6 +8765,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1969036551
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969036548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &1971091175
 GameObject:
   m_ObjectHideFlags: 0
@@ -7830,7 +8820,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 34
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1971091177
 SpriteRenderer:
@@ -7890,6 +8880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019474273}
   - component: {fileID: 2019474274}
+  - component: {fileID: 2019474275}
   m_Layer: 0
   m_Name: car1 (6)
   m_TagString: Untagged
@@ -7959,6 +8950,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2019474275
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019474272}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.88}
+  m_EdgeRadius: 0
 --- !u!1 &2025010037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,6 +8988,8 @@ GameObject:
   - component: {fileID: 2025010039}
   - component: {fileID: 2025010038}
   - component: {fileID: 2025010041}
+  - component: {fileID: 2025010042}
+  - component: {fileID: 2025010043}
   m_Layer: 0
   m_Name: character_stage_1
   m_TagString: Untagged
@@ -8072,6 +9091,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!61 &2025010042
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025010037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.12}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6, y: 0.82}
+    newSize: {x: 0.6, y: 0.82}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.45, y: 0.27}
+  m_EdgeRadius: 0
+--- !u!50 &2025010043
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025010037}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2025218096
 GameObject:
   m_ObjectHideFlags: 0
@@ -8140,7 +9206,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24772346929e041d0b119e1395b8a125, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8d149fdc5c12498f962adc145613bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8148,7 +9214,7 @@ SpriteRenderer:
   m_Size: {x: 0.75, y: 1.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2056604693
@@ -8321,6 +9387,7 @@ GameObject:
   - component: {fileID: 2103202553}
   - component: {fileID: 2103202555}
   - component: {fileID: 2103202554}
+  - component: {fileID: 2103202556}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (4)
   m_TagString: Untagged
@@ -8340,7 +9407,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 41
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2103202554
 Animator:
@@ -8409,6 +9476,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2103202556
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103202552}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.26, y: 0.76}
+    newSize: {x: 1.26, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.54}
+  m_EdgeRadius: 0
 --- !u!1 &2139807307
 GameObject:
   m_ObjectHideFlags: 0
@@ -8419,6 +9512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2139807308}
   - component: {fileID: 2139807309}
+  - component: {fileID: 2139807310}
   m_Layer: 0
   m_Name: Cab (2)
   m_TagString: Untagged
@@ -8438,7 +9532,7 @@ Transform:
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.8015179}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2139807309
 SpriteRenderer:
@@ -8488,3 +9582,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2139807310
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139807307}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.09}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.3}
+    newSize: {x: 1.62, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 0.82}
+  m_EdgeRadius: 0

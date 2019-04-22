@@ -5,12 +5,12 @@ using UnityEngine;
 public class translateCharacter : MonoBehaviour
 {
 
-    //private Vector3 pos;
+    private Vector3 _startPosition;
     public float speed = 10f;
     // Start is called before the first frame update
     void Start()
     {
-        //pos = transform.position;
+        _startPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -32,5 +32,10 @@ public class translateCharacter : MonoBehaviour
                 transform.position = new Vector3(transform.position.x + (Time.deltaTime * speed), transform.position.y, transform.position.z);
 
 }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        transform.position = _startPosition;
     }
 }
