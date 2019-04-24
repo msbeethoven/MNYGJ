@@ -8,6 +8,9 @@ public class translateCharacter : MonoBehaviour
     private GameObject _victoryObject;
 
     [SerializeField]
+    private FollowPlayerCamera _cameraFollow;
+
+    [SerializeField]
     private MovementTest _movementTestPrefab;
 
     private Vector3 _startPosition;
@@ -21,6 +24,8 @@ public class translateCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_cameraFollow.IsIntroducingScene) { return; }
+
         Vector3? newPosition = null;
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {

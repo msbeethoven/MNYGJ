@@ -6,6 +6,9 @@ using UnityEngine;
 public class FollowPlayerCamera : MonoBehaviour
 {
     [SerializeField]
+    private float _introStartY, _introEndY, _introMovementIncrement = 1;
+
+    [SerializeField]
     private Transform _playerTransform;
 
     [SerializeField]
@@ -16,13 +19,31 @@ public class FollowPlayerCamera : MonoBehaviour
 
     Vector3 _startPosition;
 
+    public bool IsIntroducingScene { get; private set; }
+
     void Awake() 
     {
         _camera = GetComponent<Camera>();
         _startPosition = transform.position;
     }
+
+    IEnumerator Start()
+    {
+        IsIntroducingScene = true;
+        float y = _introStartY;
+        while (y > _introEndY)
+        {
+            y -= Time.deltaTime * _introMovementIncrement;
+            y = Mathf.Max(_introEndY, y);
+            transform.position = new Vector3(_startPosition.x, y, _startPosition.z);
+            yield return null;
+        }
+        IsIntroducingScene = false;
+    }
+
     void Update()
     {
+        if (IsIntroducingScene) { return; }
         Vector2 viewportPosition = _camera.WorldToViewportPoint(_playerTransform.position);
         float viewportY = viewportPosition.y;
         if (viewportY > _maxViewportY)
