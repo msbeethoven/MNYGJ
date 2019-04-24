@@ -233,6 +233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 44375290}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &52289811
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +645,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 124930330}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &151845693
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 169790954}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &170530062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,9 +1118,10 @@ GameObject:
   m_Component:
   - component: {fileID: 241463286}
   - component: {fileID: 241463287}
+  - component: {fileID: 241463288}
   m_Layer: 0
   m_Name: Street_Pole (2)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1181,6 +1188,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &241463288
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241463285}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21, y: -0.44}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.69}
+    newSize: {x: 0.81, y: 1.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.57}
+  m_EdgeRadius: 0
 --- !u!1 &243663204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 243663206}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &253037694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,9 +1347,10 @@ GameObject:
   m_Component:
   - component: {fileID: 253037695}
   - component: {fileID: 253037696}
+  - component: {fileID: 253037697}
   m_Layer: 0
   m_Name: Tree (1)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1381,6 +1417,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &253037697
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253037694}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &263009238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,6 +1564,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 263009240}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &274115750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,9 +1742,10 @@ GameObject:
   m_Component:
   - component: {fileID: 299575977}
   - component: {fileID: 299575978}
+  - component: {fileID: 299575979}
   m_Layer: 0
   m_Name: Tree (11)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1747,6 +1812,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &299575979
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299575976}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1001 &301850249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1997,9 +2088,10 @@ GameObject:
   m_Component:
   - component: {fileID: 325217768}
   - component: {fileID: 325217769}
+  - component: {fileID: 325217770}
   m_Layer: 0
   m_Name: Tree (9)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2066,6 +2158,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &325217770
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325217767}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &325782792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2468,6 +2586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 348278179}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &357133764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 397735613}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &404520332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,9 +3061,10 @@ GameObject:
   m_Component:
   - component: {fileID: 430060767}
   - component: {fileID: 430060768}
+  - component: {fileID: 430060769}
   m_Layer: 0
   m_Name: Tree (8)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3008,6 +3131,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &430060769
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430060766}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1001 &443545120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3561,6 +3710,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 527563563}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &538818030
 GameObject:
   m_ObjectHideFlags: 0
@@ -3773,6 +3924,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 548571046}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &549037398
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,6 +4317,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 561519640}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &577222417
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,9 +4523,10 @@ GameObject:
   m_Component:
   - component: {fileID: 602972590}
   - component: {fileID: 602972591}
+  - component: {fileID: 602972592}
   m_Layer: 0
   m_Name: Tree (5)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4437,6 +4593,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &602972592
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602972589}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &604230068
 GameObject:
   m_ObjectHideFlags: 0
@@ -4819,6 +5001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 674424250}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &679279737
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,9 +5268,10 @@ GameObject:
   m_Component:
   - component: {fileID: 748182050}
   - component: {fileID: 748182051}
+  - component: {fileID: 748182052}
   m_Layer: 0
   m_Name: Tree (6)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5153,6 +5338,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &748182052
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748182049}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1001 &762258618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6065,6 +6276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 864278199}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &868964228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6186,6 +6399,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 868964230}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &869813854
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,6 +6741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 871267435}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &894961409
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,9 +6844,10 @@ GameObject:
   m_Component:
   - component: {fileID: 913903642}
   - component: {fileID: 913903643}
+  - component: {fileID: 913903644}
   m_Layer: 0
   m_Name: Tree (3)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6696,6 +6914,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &913903644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913903641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &926123233
 GameObject:
   m_ObjectHideFlags: 0
@@ -7171,9 +7415,10 @@ GameObject:
   m_Component:
   - component: {fileID: 971328906}
   - component: {fileID: 971328907}
+  - component: {fileID: 971328908}
   m_Layer: 0
   m_Name: Tree (7)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7240,6 +7485,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &971328908
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971328905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1001 &975889342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7847,6 +8118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1043803939}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1047492572
 GameObject:
   m_ObjectHideFlags: 0
@@ -8040,6 +8313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1087910782}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1096467393
 GameObject:
   m_ObjectHideFlags: 0
@@ -8331,6 +8606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1124249334}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1133280622
 GameObject:
   m_ObjectHideFlags: 0
@@ -8511,9 +8788,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1159215594}
   - component: {fileID: 1159215595}
+  - component: {fileID: 1159215596}
   m_Layer: 0
   m_Name: Street_Pole (1)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8580,6 +8858,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1159215596
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159215593}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21, y: -0.44}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.69}
+    newSize: {x: 0.81, y: 1.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.57}
+  m_EdgeRadius: 0
 --- !u!1001 &1166851075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8679,9 +8983,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1185055716}
   - component: {fileID: 1185055717}
+  - component: {fileID: 1185055718}
   m_Layer: 0
   m_Name: Street_Pole (3)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8748,6 +9053,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1185055718
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185055715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21, y: -0.44}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.69}
+    newSize: {x: 0.81, y: 1.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.57}
+  m_EdgeRadius: 0
 --- !u!1 &1185152835
 GameObject:
   m_ObjectHideFlags: 0
@@ -8869,6 +9200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1185152837}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1212047875
 GameObject:
   m_ObjectHideFlags: 0
@@ -9049,9 +9382,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1228198121}
   - component: {fileID: 1228198122}
+  - component: {fileID: 1228198123}
   m_Layer: 0
   m_Name: Street_Pole
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9118,6 +9452,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1228198123
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228198120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21, y: -0.44}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.69}
+    newSize: {x: 0.81, y: 1.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.57}
+  m_EdgeRadius: 0
 --- !u!1 &1230816864
 GameObject:
   m_ObjectHideFlags: 0
@@ -9963,6 +10323,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1377263280}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1378593158
 GameObject:
   m_ObjectHideFlags: 0
@@ -10163,6 +10525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1409705816}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1001 &1455049186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10677,6 +11041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1516613262}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1520317358
 GameObject:
   m_ObjectHideFlags: 0
@@ -10687,9 +11053,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1520317359}
   - component: {fileID: 1520317360}
+  - component: {fileID: 1520317361}
   m_Layer: 0
   m_Name: Tree (2)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10756,6 +11123,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1520317361
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520317358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &1539265574
 GameObject:
   m_ObjectHideFlags: 0
@@ -10951,6 +11344,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1542502090}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1552739682
 GameObject:
   m_ObjectHideFlags: 0
@@ -11072,6 +11467,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1552739684}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1568011356
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,6 +11590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1568011358}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1581431911
 GameObject:
   m_ObjectHideFlags: 0
@@ -11314,6 +11713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1581431913}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1595426615
 GameObject:
   m_ObjectHideFlags: 0
@@ -11455,6 +11856,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1595426619}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1624384995
 GameObject:
   m_ObjectHideFlags: 0
@@ -11576,6 +11979,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1624384997}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1633849900
 GameObject:
   m_ObjectHideFlags: 0
@@ -11763,6 +12168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1648319160}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1664125788
 GameObject:
   m_ObjectHideFlags: 0
@@ -12377,6 +12784,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1702244345}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1704232476
 GameObject:
   m_ObjectHideFlags: 0
@@ -12589,6 +12998,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1707450207}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1720345125
 GameObject:
   m_ObjectHideFlags: 0
@@ -12599,9 +13010,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1720345126}
   - component: {fileID: 1720345127}
+  - component: {fileID: 1720345128}
   m_Layer: 0
   m_Name: Tree (4)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12668,6 +13080,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1720345128
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720345125}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &1732224834
 GameObject:
   m_ObjectHideFlags: 0
@@ -13130,6 +13568,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1759111157}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1774671430
 GameObject:
   m_ObjectHideFlags: 0
@@ -13342,6 +13782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1794039698}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1803464608
 GameObject:
   m_ObjectHideFlags: 0
@@ -13699,6 +14141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1825271040}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1827928932
 GameObject:
   m_ObjectHideFlags: 0
@@ -13820,6 +14264,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1827928934}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1849547066
 GameObject:
   m_ObjectHideFlags: 0
@@ -14294,6 +14740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1886007414}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1936211186
 GameObject:
   m_ObjectHideFlags: 0
@@ -14823,6 +15271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 1969036550}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &1971091175
 GameObject:
   m_ObjectHideFlags: 0
@@ -15464,6 +15914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 2019474274}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &2020715183
 GameObject:
   m_ObjectHideFlags: 0
@@ -15670,6 +16122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _victoryObject: {fileID: 577222417}
+  _movementTestPrefab: {fileID: 4921612576852591615, guid: d9d4a93eb13704060a782134b07b5528,
+    type: 3}
   speed: 15
 --- !u!61 &2025010042
 BoxCollider2D:
@@ -15728,9 +16182,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2025218097}
   - component: {fileID: 2025218098}
+  - component: {fileID: 2025218099}
   m_Layer: 0
   m_Name: Tree (10)
-  m_TagString: Untagged
+  m_TagString: Impassable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15797,6 +16252,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2025218099
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025218096}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.24}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.31}
+    newSize: {x: 0.75, y: 1.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!1 &2056604693
 GameObject:
   m_ObjectHideFlags: 0
@@ -16279,6 +16760,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 2103202555}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9
 --- !u!1 &2104912587
 GameObject:
   m_ObjectHideFlags: 0
@@ -16580,3 +17063,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerTransform: {fileID: 2025010040}
   _spriteRenderer: {fileID: 2139807309}
+  _inFrontOfCharacterSortingOrder: 11
+  _behindCharacterSortingOrder: 9

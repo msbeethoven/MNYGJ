@@ -7,6 +7,9 @@ public class translateCharacter : MonoBehaviour
     [SerializeField]
     private GameObject _victoryObject;
 
+    [SerializeField]
+    private MovementTest _movementTestPrefab;
+
     private Vector3 _startPosition;
     public float speed = 10f;
     // Start is called before the first frame update
@@ -18,22 +21,33 @@ public class translateCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.UpArrow))
+        Vector3? newPosition = null;
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + (Time.deltaTime * speed), transform.position.z);
-            
+            newPosition = new Vector3(transform.position.x, transform.position.y + (Time.deltaTime * speed), transform.position.z);
         }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            newPosition = new Vector3(transform.position.x - (Time.deltaTime * speed), transform.position.y, transform.position.z);
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            newPosition = new Vector3(transform.position.x + (Time.deltaTime * speed), transform.position.y, transform.position.z);
+        }
+        if (newPosition.HasValue)
+        {
+            Move(newPosition.Value);
+        }
+    }
 
-                if(Input.GetKeyDown(KeyCode.LeftArrow))
-{
-                transform.position = new Vector3(transform.position.x - (Time.deltaTime * speed), transform.position.y, transform.position.z);
-
-}
-         if(Input.GetKeyDown(KeyCode.RightArrow))
-{
-                transform.position = new Vector3(transform.position.x + (Time.deltaTime * speed), transform.position.y, transform.position.z);
-
-}
+    void Move(Vector3 newPosition)
+    {
+        MovementTest testComponent = Instantiate(_movementTestPrefab, newPosition, Quaternion.identity);
+        if (testComponent.CanMove)
+        {
+            transform.position = newPosition;
+        }
+        Destroy(testComponent.gameObject);
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -41,7 +55,8 @@ public class translateCharacter : MonoBehaviour
         if (collider.tag == "Obstacle")
         {
             transform.position = _startPosition;
-        } else if (collider.tag == "Victory")
+        }
+        else if (collider.tag == "Victory")
         {
             _victoryObject.SetActive(true);
             CoinBank.AddCoins(50);
