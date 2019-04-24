@@ -44,6 +44,7 @@ public class translateCharacter : MonoBehaviour
         } else if (collider.tag == "Victory")
         {
             _victoryObject.SetActive(true);
+            CoinBank.AddCoins(50);
         }
     }
 }
