@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 44375289}
   - component: {fileID: 44375290}
   - component: {fileID: 44375291}
+  - component: {fileID: 44375292}
   m_Layer: 0
   m_Name: car1 (4)
   m_TagString: Obstacle
@@ -205,7 +206,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -216,8 +217,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &44375292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44375288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 44375290}
 --- !u!1 &52289811
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +533,7 @@ GameObject:
   - component: {fileID: 124930329}
   - component: {fileID: 124930330}
   - component: {fileID: 124930331}
+  - component: {fileID: 124930332}
   m_Layer: 0
   m_Name: Cab (10)
   m_TagString: Obstacle
@@ -600,7 +616,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -611,8 +627,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &124930332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124930328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 124930330}
 --- !u!1 &151845693
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,6 +834,7 @@ GameObject:
   - component: {fileID: 169790953}
   - component: {fileID: 169790954}
   - component: {fileID: 169790955}
+  - component: {fileID: 169790956}
   m_Layer: 0
   m_Name: car2 (3)
   m_TagString: Obstacle
@@ -886,7 +917,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -897,8 +928,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &169790956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169790952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 169790954}
 --- !u!1 &170530062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1192,7 @@ GameObject:
   - component: {fileID: 243663205}
   - component: {fileID: 243663206}
   - component: {fileID: 243663207}
+  - component: {fileID: 243663208}
   m_Layer: 0
   m_Name: Cab (1)
   m_TagString: Obstacle
@@ -1229,7 +1275,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1240,8 +1286,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &243663208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243663204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 243663206}
 --- !u!1 &253037694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1392,7 @@ GameObject:
   - component: {fileID: 263009239}
   - component: {fileID: 263009240}
   - component: {fileID: 263009241}
+  - component: {fileID: 263009242}
   m_Layer: 0
   m_Name: car1 (5)
   m_TagString: Obstacle
@@ -1414,7 +1475,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1425,8 +1486,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &263009242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263009238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 263009240}
 --- !u!1 &274115750
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,6 +2339,7 @@ GameObject:
   - component: {fileID: 348278179}
   - component: {fileID: 348278178}
   - component: {fileID: 348278180}
+  - component: {fileID: 348278181}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (3)
   m_TagString: Obstacle
@@ -2283,7 +2359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 39
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &348278178
 Animator:
@@ -2378,6 +2454,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.54}
   m_EdgeRadius: 0
+--- !u!114 &348278181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348278176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 348278179}
 --- !u!1 &357133764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,6 +2728,7 @@ GameObject:
   - component: {fileID: 397735612}
   - component: {fileID: 397735613}
   - component: {fileID: 397735614}
+  - component: {fileID: 397735615}
   m_Layer: 0
   m_Name: Cab (4)
   m_TagString: Obstacle
@@ -2720,7 +2811,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2731,8 +2822,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &397735615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397735611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 397735613}
 --- !u!1 &404520332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,6 +3451,7 @@ GameObject:
   - component: {fileID: 527563562}
   - component: {fileID: 527563563}
   - component: {fileID: 527563564}
+  - component: {fileID: 527563565}
   m_Layer: 0
   m_Name: Cab (9)
   m_TagString: Obstacle
@@ -3428,7 +3534,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3439,8 +3545,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &527563565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527563561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 527563563}
 --- !u!1 &538818030
 GameObject:
   m_ObjectHideFlags: 0
@@ -3543,6 +3663,7 @@ GameObject:
   - component: {fileID: 548571045}
   - component: {fileID: 548571046}
   - component: {fileID: 548571047}
+  - component: {fileID: 548571048}
   m_Layer: 0
   m_Name: waterTaxi
   m_TagString: Obstacle
@@ -3625,7 +3746,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3636,8 +3757,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.34, y: 1.05}
+  m_Size: {x: 3.34, y: 0.43}
   m_EdgeRadius: 0
+--- !u!114 &548571048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548571044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 548571046}
 --- !u!1 &549037398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,6 +4054,7 @@ GameObject:
   - component: {fileID: 561519639}
   - component: {fileID: 561519640}
   - component: {fileID: 561519641}
+  - component: {fileID: 561519642}
   m_Layer: 0
   m_Name: car2 (1)
   m_TagString: Obstacle
@@ -4001,7 +4137,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4012,8 +4148,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &561519642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561519638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 561519640}
 --- !u!1 &577222417
 GameObject:
   m_ObjectHideFlags: 0
@@ -4559,6 +4709,7 @@ GameObject:
   - component: {fileID: 674424249}
   - component: {fileID: 674424250}
   - component: {fileID: 674424251}
+  - component: {fileID: 674424252}
   m_Layer: 0
   m_Name: Cab (11)
   m_TagString: Obstacle
@@ -4641,7 +4792,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4652,8 +4803,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &674424252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674424248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 674424250}
 --- !u!1 &679279737
 GameObject:
   m_ObjectHideFlags: 0
@@ -5771,6 +5936,7 @@ GameObject:
   - component: {fileID: 864278199}
   - component: {fileID: 864278198}
   - component: {fileID: 864278200}
+  - component: {fileID: 864278201}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (2)
   m_TagString: Obstacle
@@ -5790,7 +5956,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 38
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &864278198
 Animator:
@@ -5885,6 +6051,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.54}
   m_EdgeRadius: 0
+--- !u!114 &864278201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864278196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 864278199}
 --- !u!1 &868964228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5896,6 +6076,7 @@ GameObject:
   - component: {fileID: 868964229}
   - component: {fileID: 868964230}
   - component: {fileID: 868964231}
+  - component: {fileID: 868964232}
   m_Layer: 0
   m_Name: Cab (13)
   m_TagString: Obstacle
@@ -5978,7 +6159,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.17}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5989,8 +6170,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.43, y: 0.69}
+  m_Size: {x: 1.43, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &868964232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868964228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 868964230}
 --- !u!1 &869813854
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,6 +6416,7 @@ GameObject:
   - component: {fileID: 871267434}
   - component: {fileID: 871267435}
   - component: {fileID: 871267436}
+  - component: {fileID: 871267437}
   m_Layer: 0
   m_Name: car1
   m_TagString: Obstacle
@@ -6303,7 +6499,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6314,8 +6510,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &871267437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871267433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 871267435}
 --- !u!1 &894961409
 GameObject:
   m_ObjectHideFlags: 0
@@ -7356,13 +7566,13 @@ Transform:
   - {fileID: 674424249}
   - {fileID: 1827928933}
   - {fileID: 868964229}
-  - {fileID: 1047492573}
-  - {fileID: 1012177399}
   - {fileID: 1595426616}
   - {fileID: 1087910780}
   - {fileID: 864278197}
   - {fileID: 348278177}
   - {fileID: 2103202553}
+  - {fileID: 1047492573}
+  - {fileID: 1012177399}
   m_Father: {fileID: 1353131136}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7416,7 +7626,7 @@ Transform:
   - {fileID: 1950273777}
   - {fileID: 1504021255}
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 35
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1012177400
 Animator:
@@ -7527,6 +7737,7 @@ GameObject:
   - component: {fileID: 1043803938}
   - component: {fileID: 1043803939}
   - component: {fileID: 1043803940}
+  - component: {fileID: 1043803941}
   m_Layer: 0
   m_Name: Cab
   m_TagString: Obstacle
@@ -7609,7 +7820,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7620,8 +7831,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1043803941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043803937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1043803939}
 --- !u!1 &1047492572
 GameObject:
   m_ObjectHideFlags: 0
@@ -7653,7 +7878,7 @@ Transform:
   - {fileID: 1230816865}
   - {fileID: 1971091176}
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 34
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1047492574
 Animator:
@@ -7686,6 +7911,7 @@ GameObject:
   - component: {fileID: 1087910782}
   - component: {fileID: 1087910781}
   - component: {fileID: 1087910783}
+  - component: {fileID: 1087910784}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (1)
   m_TagString: Obstacle
@@ -7705,7 +7931,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 37
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &1087910781
 Animator:
@@ -7800,6 +8026,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.54}
   m_EdgeRadius: 0
+--- !u!114 &1087910784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087910779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1087910782}
 --- !u!1 &1096467393
 GameObject:
   m_ObjectHideFlags: 0
@@ -7981,6 +8221,7 @@ GameObject:
   - component: {fileID: 1124249333}
   - component: {fileID: 1124249334}
   - component: {fileID: 1124249335}
+  - component: {fileID: 1124249336}
   m_Layer: 0
   m_Name: car2 (5)
   m_TagString: Obstacle
@@ -8063,7 +8304,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8074,8 +8315,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1124249336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124249332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1124249334}
 --- !u!1 &1133280622
 GameObject:
   m_ObjectHideFlags: 0
@@ -8504,6 +8759,7 @@ GameObject:
   - component: {fileID: 1185152836}
   - component: {fileID: 1185152837}
   - component: {fileID: 1185152838}
+  - component: {fileID: 1185152839}
   m_Layer: 0
   m_Name: car1 (2)
   m_TagString: Obstacle
@@ -8586,7 +8842,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8597,8 +8853,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1185152839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185152835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1185152837}
 --- !u!1 &1212047875
 GameObject:
   m_ObjectHideFlags: 0
@@ -9583,6 +9853,7 @@ GameObject:
   - component: {fileID: 1377263279}
   - component: {fileID: 1377263280}
   - component: {fileID: 1377263281}
+  - component: {fileID: 1377263282}
   m_Layer: 0
   m_Name: waterTaxi (1)
   m_TagString: Obstacle
@@ -9665,7 +9936,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9676,8 +9947,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.34, y: 1.05}
+  m_Size: {x: 3.34, y: 0.43}
   m_EdgeRadius: 0
+--- !u!114 &1377263282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377263278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1377263280}
 --- !u!1 &1378593158
 GameObject:
   m_ObjectHideFlags: 0
@@ -9768,6 +10053,7 @@ GameObject:
   - component: {fileID: 1409705815}
   - component: {fileID: 1409705816}
   - component: {fileID: 1409705817}
+  - component: {fileID: 1409705818}
   m_Layer: 0
   m_Name: car1 (3)
   m_TagString: Obstacle
@@ -9850,7 +10136,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9861,8 +10147,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1409705818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409705814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1409705816}
 --- !u!1001 &1455049186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10267,6 +10567,7 @@ GameObject:
   - component: {fileID: 1516613261}
   - component: {fileID: 1516613262}
   - component: {fileID: 1516613263}
+  - component: {fileID: 1516613264}
   m_Layer: 0
   m_Name: Cab (8)
   m_TagString: Obstacle
@@ -10349,7 +10650,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10360,8 +10661,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1516613264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516613260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1516613262}
 --- !u!1 &1520317358
 GameObject:
   m_ObjectHideFlags: 0
@@ -10526,6 +10841,7 @@ GameObject:
   - component: {fileID: 1542502089}
   - component: {fileID: 1542502090}
   - component: {fileID: 1542502091}
+  - component: {fileID: 1542502092}
   m_Layer: 0
   m_Name: car2 (4)
   m_TagString: Obstacle
@@ -10608,7 +10924,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10619,8 +10935,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1542502092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542502088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1542502090}
 --- !u!1 &1552739682
 GameObject:
   m_ObjectHideFlags: 0
@@ -10632,6 +10962,7 @@ GameObject:
   - component: {fileID: 1552739683}
   - component: {fileID: 1552739684}
   - component: {fileID: 1552739685}
+  - component: {fileID: 1552739686}
   m_Layer: 0
   m_Name: car2 (7)
   m_TagString: Obstacle
@@ -10714,7 +11045,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10725,8 +11056,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1552739686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552739682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1552739684}
 --- !u!1 &1568011356
 GameObject:
   m_ObjectHideFlags: 0
@@ -10738,6 +11083,7 @@ GameObject:
   - component: {fileID: 1568011357}
   - component: {fileID: 1568011358}
   - component: {fileID: 1568011359}
+  - component: {fileID: 1568011360}
   m_Layer: 0
   m_Name: car1 (1)
   m_TagString: Obstacle
@@ -10820,7 +11166,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10831,8 +11177,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1568011360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568011356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1568011358}
 --- !u!1 &1581431911
 GameObject:
   m_ObjectHideFlags: 0
@@ -10844,6 +11204,7 @@ GameObject:
   - component: {fileID: 1581431912}
   - component: {fileID: 1581431913}
   - component: {fileID: 1581431914}
+  - component: {fileID: 1581431915}
   m_Layer: 0
   m_Name: Cab (3)
   m_TagString: Obstacle
@@ -10926,7 +11287,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10937,8 +11298,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1581431915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581431911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1581431913}
 --- !u!1 &1595426615
 GameObject:
   m_ObjectHideFlags: 0
@@ -10951,6 +11326,7 @@ GameObject:
   - component: {fileID: 1595426619}
   - component: {fileID: 1595426618}
   - component: {fileID: 1595426617}
+  - component: {fileID: 1595426620}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1
   m_TagString: Untagged
@@ -10970,7 +11346,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 36
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1595426617
 BoxCollider2D:
@@ -11065,6 +11441,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1595426620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595426615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1595426619}
 --- !u!1 &1624384995
 GameObject:
   m_ObjectHideFlags: 0
@@ -11076,6 +11466,7 @@ GameObject:
   - component: {fileID: 1624384996}
   - component: {fileID: 1624384997}
   - component: {fileID: 1624384998}
+  - component: {fileID: 1624384999}
   m_Layer: 0
   m_Name: Cab (5)
   m_TagString: Obstacle
@@ -11158,7 +11549,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11169,8 +11560,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1624384999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624384995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1624384997}
 --- !u!1 &1633849900
 GameObject:
   m_ObjectHideFlags: 0
@@ -11248,6 +11653,7 @@ GameObject:
   - component: {fileID: 1648319159}
   - component: {fileID: 1648319160}
   - component: {fileID: 1648319161}
+  - component: {fileID: 1648319162}
   m_Layer: 0
   m_Name: car2 (6)
   m_TagString: Obstacle
@@ -11330,7 +11736,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11341,8 +11747,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1648319162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648319158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1648319160}
 --- !u!1 &1664125788
 GameObject:
   m_ObjectHideFlags: 0
@@ -11847,6 +12267,7 @@ GameObject:
   - component: {fileID: 1702244344}
   - component: {fileID: 1702244345}
   - component: {fileID: 1702244346}
+  - component: {fileID: 1702244347}
   m_Layer: 0
   m_Name: car1 (7)
   m_TagString: Obstacle
@@ -11929,7 +12350,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11940,8 +12361,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1702244347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702244343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1702244345}
 --- !u!1 &1704232476
 GameObject:
   m_ObjectHideFlags: 0
@@ -12044,6 +12479,7 @@ GameObject:
   - component: {fileID: 1707450206}
   - component: {fileID: 1707450207}
   - component: {fileID: 1707450208}
+  - component: {fileID: 1707450209}
   m_Layer: 0
   m_Name: Cab (7)
   m_TagString: Obstacle
@@ -12126,7 +12562,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12137,8 +12573,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1707450209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707450205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1707450207}
 --- !u!1 &1720345125
 GameObject:
   m_ObjectHideFlags: 0
@@ -12570,6 +13020,7 @@ GameObject:
   - component: {fileID: 1759111156}
   - component: {fileID: 1759111157}
   - component: {fileID: 1759111158}
+  - component: {fileID: 1759111159}
   m_Layer: 0
   m_Name: car1 (9)
   m_TagString: Obstacle
@@ -12652,7 +13103,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12663,8 +13114,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.41, y: 0.93}
+  m_Size: {x: 1.41, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1759111159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759111155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1759111157}
 --- !u!1 &1774671430
 GameObject:
   m_ObjectHideFlags: 0
@@ -12767,6 +13232,7 @@ GameObject:
   - component: {fileID: 1794039697}
   - component: {fileID: 1794039698}
   - component: {fileID: 1794039699}
+  - component: {fileID: 1794039700}
   m_Layer: 0
   m_Name: car2
   m_TagString: Obstacle
@@ -12849,7 +13315,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12860,8 +13326,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1794039700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794039696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1794039698}
 --- !u!1 &1803464608
 GameObject:
   m_ObjectHideFlags: 0
@@ -13109,6 +13589,7 @@ GameObject:
   - component: {fileID: 1825271039}
   - component: {fileID: 1825271040}
   - component: {fileID: 1825271041}
+  - component: {fileID: 1825271042}
   m_Layer: 0
   m_Name: car2 (2)
   m_TagString: Obstacle
@@ -13191,7 +13672,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13202,8 +13683,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1825271042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825271038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1825271040}
 --- !u!1 &1827928932
 GameObject:
   m_ObjectHideFlags: 0
@@ -13215,6 +13710,7 @@ GameObject:
   - component: {fileID: 1827928933}
   - component: {fileID: 1827928934}
   - component: {fileID: 1827928935}
+  - component: {fileID: 1827928936}
   m_Layer: 0
   m_Name: Cab (12)
   m_TagString: Obstacle
@@ -13297,7 +13793,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.17}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13308,8 +13804,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.43, y: 0.69}
+  m_Size: {x: 1.43, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1827928936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827928932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1827928934}
 --- !u!1 &1849547066
 GameObject:
   m_ObjectHideFlags: 0
@@ -13674,6 +14184,7 @@ GameObject:
   - component: {fileID: 1886007413}
   - component: {fileID: 1886007414}
   - component: {fileID: 1886007415}
+  - component: {fileID: 1886007416}
   m_Layer: 0
   m_Name: Cab (6)
   m_TagString: Obstacle
@@ -13756,7 +14267,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13767,8 +14278,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &1886007416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886007412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1886007414}
 --- !u!1 &1936211186
 GameObject:
   m_ObjectHideFlags: 0
@@ -14188,6 +14713,7 @@ GameObject:
   - component: {fileID: 1969036549}
   - component: {fileID: 1969036550}
   - component: {fileID: 1969036551}
+  - component: {fileID: 1969036552}
   m_Layer: 0
   m_Name: car1 (8)
   m_TagString: Obstacle
@@ -14270,7 +14796,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -14281,8 +14807,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &1969036552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969036548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 1969036550}
 --- !u!1 &1971091175
 GameObject:
   m_ObjectHideFlags: 0
@@ -14814,6 +15354,7 @@ GameObject:
   - component: {fileID: 2019474273}
   - component: {fileID: 2019474274}
   - component: {fileID: 2019474275}
+  - component: {fileID: 2019474276}
   m_Layer: 0
   m_Name: car1 (6)
   m_TagString: Obstacle
@@ -14896,7 +15437,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.18}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -14907,8 +15448,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 0.88}
+  m_Size: {x: 1.42, y: 0.52}
   m_EdgeRadius: 0
+--- !u!114 &2019474276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019474272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 2019474274}
 --- !u!1 &2020715183
 GameObject:
   m_ObjectHideFlags: 0
@@ -15016,7 +15571,7 @@ GameObject:
   - component: {fileID: 2025010043}
   m_Layer: 0
   m_Name: character_stage_1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15076,7 +15631,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: cadba8cac819c41cab568cfeddaf5fbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15595,6 +16150,7 @@ GameObject:
   - component: {fileID: 2103202555}
   - component: {fileID: 2103202554}
   - component: {fileID: 2103202556}
+  - component: {fileID: 2103202557}
   m_Layer: 0
   m_Name: BarrelAnimation_Frame1 (4)
   m_TagString: Obstacle
@@ -15614,7 +16170,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1010622078}
-  m_RootOrder: 40
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2103202554
 Animator:
@@ -15709,6 +16265,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.54}
   m_EdgeRadius: 0
+--- !u!114 &2103202557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103202552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 2103202555}
 --- !u!1 &2104912587
 GameObject:
   m_ObjectHideFlags: 0
@@ -15900,6 +16470,7 @@ GameObject:
   - component: {fileID: 2139807308}
   - component: {fileID: 2139807309}
   - component: {fileID: 2139807310}
+  - component: {fileID: 2139807311}
   m_Layer: 0
   m_Name: Cab (2)
   m_TagString: Obstacle
@@ -15982,7 +16553,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0, y: -0.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15993,5 +16564,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.38, y: 0.82}
+  m_Size: {x: 1.38, y: 0.46}
   m_EdgeRadius: 0
+--- !u!114 &2139807311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139807307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9dec45468f0404bb4f7bd5c0777342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 2025010040}
+  _spriteRenderer: {fileID: 2139807309}

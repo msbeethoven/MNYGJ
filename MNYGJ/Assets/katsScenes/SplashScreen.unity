@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3.5
-  GameMenu: AvatarSelectionNEW
+  GameMenu: AvatarSelection
 --- !u!1 &2111225601
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,17 +9,14 @@ EditorBuildSettings:
     path: Assets/katsScenes/SplashScreen.unity
     guid: b6b36bf0d480648319e69dd47dd9ecc5
   - enabled: 1
-    path: Assets/katsScenes/AvatarSelectionNEW.unity
+    path: Assets/katsScenes/AvatarSelection.unity
     guid: 061f9d0f469f84424969b129216b5c8c
   - enabled: 1
-    path: Assets/katsScenes/AvatarSelection.unity
+    path: Assets/katsScenes/House.unity
     guid: 3f7a0b871132340eaa21e71246f59cb2
   - enabled: 1
     path: Assets/katsScenes/GameMenu.unity
     guid: 84f1af61fbd564a56b8b6e51c543586a
-  - enabled: 0
-    path: Assets/katsScenes/MiniMap.unity
-    guid: c37bb546826f74bb8bbd2739456d52ef
   - enabled: 1
     path: Assets/katsScenes/Runner.unity
     guid: 3fd54e76528064c33a2672860607bee1

@@ -11,7 +11,7 @@ public class ButtonHandler : MonoBehaviour
     public GameObject minimapIcon;
 
     public void playBtn(){
-        SceneManager.LoadScene("AvatarSelection"); 
+        SceneManager.LoadScene("House"); 
     }
 
     public void leaveBtn(){
@@ -23,8 +23,7 @@ public class ButtonHandler : MonoBehaviour
     }
 
     public void loadAvatarSelection(){
-
-        SceneManager.LoadScene("AvatarSelectionNEW"); 
+        SceneManager.LoadScene("AvatarSelection"); 
     }
 
     public void loadMiniMapIcon() {
