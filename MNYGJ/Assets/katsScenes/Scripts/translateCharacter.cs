@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class translateCharacter : MonoBehaviour
 {
+    const float _ONE_THIRD = 1 / 3f;
+    const float _TWO_THIRDS = 2 / 3f;
+
     [SerializeField]
     private GameObject _victoryObject;
 
@@ -15,6 +18,12 @@ public class translateCharacter : MonoBehaviour
 
     private Vector3 _startPosition;
     public float speed = 10f;
+
+    private void Awake()
+    {
+        Input.multiTouchEnabled = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,24 +34,35 @@ public class translateCharacter : MonoBehaviour
     void Update()
     {
         if (_cameraFollow.IsIntroducingScene) { return; }
+        if (!Input.GetMouseButtonDown(0)) { return; }
 
         Vector3? newPosition = null;
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            newPosition = new Vector3(transform.position.x, transform.position.y + (Time.deltaTime * speed), transform.position.z);
-        }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+
+        // equal to touch position on mobile if multiTouch is
+        // disabled or if only one finger is on the device
+        Vector3 mousePos = Input.mousePosition;
+        Vector3 viewportPosition = Camera.main.ScreenToViewportPoint(mousePos);
+        float normalizedX = viewportPosition.x;
+
+        if (normalizedX < _ONE_THIRD)
         {
             newPosition = new Vector3(transform.position.x - (Time.deltaTime * speed), transform.position.y, transform.position.z);
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (normalizedX < _TWO_THIRDS)
+        {
+            newPosition = new Vector3(transform.position.x, transform.position.y + (Time.deltaTime * speed), transform.position.z);
+        }
+        else
         {
             newPosition = new Vector3(transform.position.x + (Time.deltaTime * speed), transform.position.y, transform.position.z);
         }
+
         if (newPosition.HasValue)
         {
             Move(newPosition.Value);
         }
+
+
     }
 
     void Move(Vector3 newPosition)
